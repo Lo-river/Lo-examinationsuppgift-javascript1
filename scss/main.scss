@@ -1,4 +1,9 @@
-@use 'partials/variables';
-@use 'partials/mixins';
-@use 'partials/header';
-@use 'partials/footer';
+// main.scss
+@import 'partials/variables'; // Variabler först
+@import 'partials/mixins';    // Mixins och funktioner
+@import 'partials/base';      // Grundstilar
+@import 'partials/layout';    // Layout och struktur
+@import 'partials/header';    // Header-stilar
+@import 'partials/footer';    // Footer-stilar
+@import 'partials/buttons';   // Knappar
+@import 'partials/media';     // Media queries (generella)
