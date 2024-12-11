@@ -1,34 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Quiz (latest) </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200..800&family=Nunito:wght@200..800&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="gör om för dark-light 22:12.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Space Quiz</title>
+
+
+
+
 </head>
-<body>
-    <header></header>
-
-    <div body-wrap>
-        <h1>Welcome to the Space Quiz</h1>
-
-        <div class="quiz-box">
-
-            <h2>This quiz is about the magical space that surround us all</h2>
-                <p>Glad you also find it interesting! If you want to take the quiz just push the start below</p>
-                <button> Start the quiz</button>
+  <body class="dark-mode">
 
 
+        <header>
 
-        </div>
+            <!-- <h1 id="heading">Welcome to outer space</h1> -->
+            <h1 id="heading">Välkommen ut i rymden</h1>
+
+            <input type="checkbox" id="mode-toggle">
+            <label for="mode-toggle">
+                <!-- <span class="toggletext-light">Light Mode</span>
+                <span class="toggletext-dark">Dark Mode</span> -->
+            </label>
+
+        </header>
 
 
+        <section id="star">
+            <div class="star-container">
+                <div class="stars"></div>
+                <div class="stars"></div>
+                <div class="stars"></div>
+                <div class="stars"></div>
+                <div class="stars"></div>
+            </div>
+
+        </section>
+
+    <div class="body-wrap">
+        <main>
+            <div class="main-container">
+
+                <!-- <h2>Space Quiz</h2> -->
 
 
+                    <div class="planet-container">
+
+                        <div class="planet">
+
+                            <div class="insidebox-circle">
+
+                                    <div id="question-box">
+
+                                        <div id="quiz-container"></div>
+
+                                        <button id="action-button">Starta Quiz</button>
+
+                                    </div>
+
+                                    <!-- Tror jag skippar denna <div class="planet-ring"></div> -->
+
+                            </div>
+
+                        </div>
+                    </div>
 
 
+            </div>
+        </main>
 
+            <footer>
+                <div class="moon-footer">SPACE QUIZ Copyright © 2024 , Inc.</div>
+            </footer>
     </div>
+
+
     <script src="script.js"></script>
+
 </body>
 </html>
+
